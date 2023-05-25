@@ -1,3 +1,7 @@
+body {
+    padding: 18px;
+    background-color: #eee;
+}
 
 header > .img-header-logo {
     width: 10vw;
@@ -6,31 +10,67 @@ header > .img-header-logo {
 
 nav {
     margin: 2% 0;
+    background-color: #229953e7;
+    width: 96vw;
+    height: 10vh;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav .nav-ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top: 1.6%;
+    font-size: 20px;
+}
+
+nav a {
+    color: black;
 }
 
 .ul-items {
-    margin: 0 auto;
+    margin: 0 1%;
 }
 
 nav a {
     text-decoration: none;
 }
 
-.promo-img {
-    width: 96vw;
-    height: 100vh;
+.promo-article {
+background-image: url("../images/promoBG.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 15px;
+padding: 10px;
+}
+
+.promo-head {
+    color: #fff;
+    margin: 3% 0 3% 3%;
+    font-size: 40px;
+}
+
+.promo-para {
+    color: #fff;
+    margin: 3% 0 3% 3%;
 }
 
 .info-section {
     display: flex;
     margin: 3% 0;
+}
+
+article figure  {
+    background-color: #229953e7;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+figure img, h3, figcaption {
+    padding: 0 6%;
 }
 
 .footer {
@@ -40,11 +80,11 @@ nav a {
 }
 
 .img-foot-logo {
-    width: 10vw;
+    width: 5vw;
 }
 
 article figcaption {
-    font-size: 14px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -53,4 +93,10 @@ article img {
     height: 35vh;
     object-fit: cover;
     margin-bottom: 4%;
+}
+
+figcaption > a {
+    display: block;
+    margin-top: 2%;
+    text-align: left;
 }
