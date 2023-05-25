@@ -1,0 +1,56 @@
+
+header > .img-header-logo {
+    width: 10vw;
+    margin: 0 45%;
+}
+
+nav {
+    margin: 2% 0;
+}
+
+nav .nav-ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-items {
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.promo-img {
+    width: 96vw;
+    height: 100vh;
+}
+
+.info-section {
+    display: flex;
+    margin: 3% 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.5rem;
+}
+
+.img-foot-logo {
+    width: 10vw;
+}
+
+article figcaption {
+    font-size: 14px;
+    text-align: center;
+}
+
+article img {
+    width: 27vw;
+    height: 35vh;
+    object-fit: cover;
+    margin-bottom: 4%;
+}
