@@ -26,8 +26,8 @@ nav .nav-ul {
     font-size: 20px;
 }
 
-nav a {
-    color: black;
+nav a, h3, figcaption {
+    color: #fff;
 }
 
 .ul-items {
